@@ -1,7 +1,9 @@
 name: Events exercices
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - dev
 
 jobs:
   print-event:
